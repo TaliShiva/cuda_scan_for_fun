@@ -1,0 +1,12 @@
+﻿  Compiling CUDA source file kernel.cu...
+  
+  C:\Users\trixter\source\repos\scan_for_fun\scan_for_fun>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.1\bin\nvcc.exe" -gencode=arch=compute_35,code=\"sm_35,compute_35\" --use-local-env -ccbin "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\bin\HostX86\x64" -x cu  -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.1\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.1\include"  -G   --keep-dir x64\Debug -maxrregcount=0  --machine 64 --compile -cudart static  -g   -DWIN32 -DWIN64 -D_DEBUG -D_CONSOLE -D_MBCS -Xcompiler "/EHsc /W3 /nologo /Od /Fdx64\Debug\vc142.pdb /FS /Zi /RTC1 /MDd " -o x64\Debug\kernel.cu.obj "C:\Users\trixter\source\repos\scan_for_fun\scan_for_fun\kernel.cu" 
+  kernel.cu
+  device_functions.h is an internal header file and must not be used directly.  This file will be removed in a future CUDA release.  Please use cuda_runtime_api.h or cuda_runtime.h instead.
+C:/Users/trixter/source/repos/scan_for_fun/scan_for_fun/kernel.cu(105): warning C4477: 'printf' : format string '%lu' requires an argument of type 'unsigned long', but variadic argument 1 has type 'size_t'
+  C:/Users/trixter/source/repos/scan_for_fun/scan_for_fun/kernel.cu(105): note: consider using '%zu' in the format string
+C:/Users/trixter/source/repos/scan_for_fun/scan_for_fun/kernel.cu(107): warning C4477: 'printf' : format string '%lu' requires an argument of type 'unsigned long', but variadic argument 1 has type 'size_t'
+  C:/Users/trixter/source/repos/scan_for_fun/scan_for_fun/kernel.cu(107): note: consider using '%zu' in the format string
+C:/Users/trixter/source/repos/scan_for_fun/scan_for_fun/kernel.cu(124): warning C4477: 'printf' : format string '%lu' requires an argument of type 'unsigned long', but variadic argument 1 has type 'size_t'
+  C:/Users/trixter/source/repos/scan_for_fun/scan_for_fun/kernel.cu(124): note: consider using '%zu' in the format string
+  scan_for_fun.vcxproj -> C:\Users\trixter\source\repos\scan_for_fun\x64\Debug\scan_for_fun.exe
